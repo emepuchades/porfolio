@@ -1,11 +1,9 @@
 import React from 'react'
 import Spline from '@splinetool/react-spline';
 
-function SplineComponent({url}) {
-  const room = "https://prod.spline.design/yY6RJze0N2Da3mEi/scene.splinecode";
-
+function SplineComponent({ url }) {
   return (
-      <Spline scene={url} />
+    <Spline scene={url} />
   )
 }
 
