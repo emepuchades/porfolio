@@ -12,8 +12,13 @@ html {
 body {
   height: 100vh;
   width: 100vw;
-background: rgb(21,21,24);
-background: linear-gradient(90deg, rgba(21,21,24,1) 0%, rgba(32,32,37,1) 50%, rgba(40,40,46,1) 99%);
+  background: rgb(21, 21, 24);
+  background: linear-gradient(
+    90deg,
+    rgba(21, 21, 24, 1) 0%,
+    rgba(32, 32, 37, 1) 50%,
+    rgba(40, 40, 46, 1) 99%
+  );
   color: #fff;
 }
 
@@ -26,13 +31,17 @@ background: linear-gradient(90deg, rgba(21,21,24,1) 0%, rgba(32,32,37,1) 50%, rg
   align-items: center;
 }
 
-.first-section-left{
-      width: 100%;
-      padding: 230px;
+.first-section-left {
+  width: 100%;
 }
 
-.first-section-rigth{
-    width: 100%;
+.first-section-rigth {
+  width: 100%;
+}
+
+.first-section-rigth canvas {
+  width: 850px !important;
+  height: 750px !important;
 }
 
 .first-section-left p {
@@ -45,4 +54,42 @@ background: linear-gradient(90deg, rgba(21,21,24,1) 0%, rgba(32,32,37,1) 50%, rg
 
 .first-section-left h1 {
   margin: 20px;
+}
+
+@media screen and (max-width: 1752px) {
+  .first-section-rigth canvas {
+    width: 750px !important;
+    height: 650px !important;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .first-section-rigth canvas {
+    width: 600px !important;
+    height: 549px !important;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .first-section-rigth canvas {
+    width: 510px !important;
+    margin-right: 50px;
+    height: 496px !important;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .first-section {
+    flex-wrap: wrap-reverse;
+  }
+
+  .first-section-rigth canvas {
+    width: 510px !important;
+    margin-right: 50px;
+    height: 496px !important;
+  }
+
+  .first-section-rigth {
+    height: 500px;
+  }
 }

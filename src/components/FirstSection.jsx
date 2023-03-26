@@ -5,6 +5,7 @@ import '../App.css'
 function FirstSection() {
   return (
     <div className='first-section'>
+      
       <div className='first-section-left'>
         <h1 class="text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-white">
           Front-End
