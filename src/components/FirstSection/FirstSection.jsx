@@ -1,6 +1,6 @@
-import React from 'react'
-import SplineComponent from './SplineComponent'
-import '../App.css'
+import React from 'react';
+import SplineComponent from '../SplineComponent'
+import './FirstSection.style.css'
 
 function FirstSection() {
   return (
@@ -19,7 +19,9 @@ function FirstSection() {
         </button>
       </div>
       <div className='first-section-rigth'>
-        <SplineComponent url='https://prod.spline.design/8KvQ4McS5dDFhhwQ/scene.splinecode' />
+
+        <SplineComponent className='spline-pc' url='https://prod.spline.design/8KvQ4McS5dDFhhwQ/scene.splinecode' />
+
       </div>
     </div>
   )
