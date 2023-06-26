@@ -3,7 +3,6 @@ import './Dashboard.css'
 
 // Components
 import Navbar from '../../components/Navbar'
-import Banner from '../../components/Banner'
 import Aboutme from '../../components/Aboutme'
 import Projects from '../../components/Projects'
 import Notes from '../../components/Notes'

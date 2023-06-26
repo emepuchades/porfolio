@@ -1,9 +1,5 @@
-import React, {useState, useEffect, useRef} from "react";
 import "pure-react-carousel/dist/react-carousel.es.css";
-
-import data from "./data.json";
 import Carousel from "./Carousel/AppCarousel";
-
 
 function Projects() {
   const dataProject = ['Slider 1', 'Slider 2', 'Slider 3' ];
