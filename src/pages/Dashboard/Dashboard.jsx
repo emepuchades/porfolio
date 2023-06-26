@@ -1,13 +1,25 @@
 import React from 'react'
 import './Dashboard.css'
+
+// Components
 import Navbar from '../../components/Navbar'
-import FirstSection from '../../components/FirstSection/FirstSection'
+import Banner from '../../components/Banner'
+import Aboutme from '../../components/Aboutme'
+import Projects from '../../components/Projects'
+import Notes from '../../components/Notes'
+import Contact from '../../components/Contact'
+import Footer from '../../components/Footer'
+import Hero from '../../components/Hero'
 
 function Dashboard() {
   return (
     <div>
       <Navbar />
-      <FirstSection />
+      <Hero />
+      <Aboutme />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   )
 }
